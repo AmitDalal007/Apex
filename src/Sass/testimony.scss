@@ -1,0 +1,36 @@
+.testimony {
+    background-color: #fb8e0b;
+    padding: 20px;
+
+    .paa {
+        padding: 20px;
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding-bottom: 25px;
+        }
+
+        .review {
+            display: flex;
+            justify-content: space-evenly;
+
+            .rectangle {
+                height: 200px;
+                width: 496px;
+                background-color: white;
+                line-height: 30px;
+                border-radius: 12px;
+                text-align: center;
+
+                .content {
+                    padding: 15px;
+                }
+
+                h2 {
+                    color: #fb8e0b;
+                }
+            }
+        }
+    }
+}
