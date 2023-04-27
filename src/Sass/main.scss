@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "DM Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fc9518;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #be6c08;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.main-container {
+	max-width: 1400px;
+	padding: 0 20px;
+	margin: 0 auto;
+	font-family: "DM Sans", sans-serif;
+}
+
+@import "./Navbar.scss";
+@import "./Home.scss";
+@import "./Features.scss";
+@import "./trio.scss";
+@import "./testimony.scss";
+@import "./Footer.scss";

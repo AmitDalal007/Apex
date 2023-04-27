@@ -1,0 +1,98 @@
+// @import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8);
+
+.home {
+    display: flex;
+    height: calc(100vh - 84px);
+    overflow: hidden;
+
+    .main-container {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-evenly;
+        padding-top: 75px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .desc {
+            .data {
+                h1 {
+                    padding-bottom: 29px;
+                    font-family: "U8";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 58px;
+                    line-height: 60px;
+                }
+
+                P {
+                    font-family: "DM Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 32px;
+                    padding-bottom: 29px;
+                    opacity: 0.7;
+                }
+
+                img {
+                    cursor: pointer;
+                    padding-bottom: 29px;
+                }
+            }
+
+            .info {
+                display: flex;
+                // justify-content: space-evenly;
+
+                .bb {
+                    // position: absolute;
+                    right: 18px;
+                }
+
+                .ss {
+                    right: 30px;
+                }
+
+                img {
+                    position: relative;
+                    min-width: 60.52px;
+                    max-height: 60.52px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .information {
+                    display: flex;
+                    padding-left: 75px;
+
+                    p {
+                        font-family: "DM Sans";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 32px;
+                        padding-bottom: 29px;
+                        opacity: 0.8;
+                    }
+
+                    .vertical-line {
+                        border-left: 3px solid black;
+                        height: 30px;
+                        opacity: 0.8;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+
+        .photo {
+            img {
+                padding: 66px 0 0 0;
+
+                max-height: 100%;
+                overflow: hidden;
+            }
+        }
+    }
+}
